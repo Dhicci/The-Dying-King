@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6D541D7E-DCA5-4359-BD7E-9875525BAF5C}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{6D541D7E-DCA5-4359-BD7E-9875525BAF5C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MainMenuSession" ID="{4FD307CD-6384-4F9C-9DC4-F25D33196049}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="GameStartup" ID="{4E28EB8A-0B79-4F9E-B45D-B7A2B4A70EB3}" WorkUnitID="{34BE999E-0593-4942-A3DC-0DD1CFB2D8CC}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Button_MouseClick" ID="{A689B90C-38FF-4DEB-B9BD-F0363A0A8045}" WorkUnitID="{34BE999E-0593-4942-A3DC-0DD1CFB2D8CC}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayButton_Click" ID="{70A3EAC3-1647-48B4-A905-24D09095846F}" WorkUnitID="{34BE999E-0593-4942-A3DC-0DD1CFB2D8CC}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Button_BackToMenu" ID="{18F26BB5-F506-49A5-A7DC-02E50F61D5F9}" WorkUnitID="{34BE999E-0593-4942-A3DC-0DD1CFB2D8CC}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="KingDeath_Early" ID="{A327DBB3-6803-48AE-9FD5-8ADC93D5A8F5}" WorkUnitID="{34BE999E-0593-4942-A3DC-0DD1CFB2D8CC}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Empathy" ID="{55116CC9-47FE-405B-B195-AE7AEE8DFADB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Anger" ID="{BC3234F0-FE31-415E-B699-FFB1CFAE830F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Loyalty_Ambition" ID="{F50C8BE7-09E1-4387-9599-12B3EE0E5B6B}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{5315EAE5-2FC7-4BAC-BA73-D3D52ECE2E85}"/>
+						<CurrentStateRef Name="None" ID="{D657B5B2-5806-4730-8619-540C08A47D3A}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

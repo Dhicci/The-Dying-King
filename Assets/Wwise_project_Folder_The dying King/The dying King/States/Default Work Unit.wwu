@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8AEFBFFD-13DF-48CA-BD7F-F8BD47CBC677}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{8AEFBFFD-13DF-48CA-BD7F-F8BD47CBC677}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MenuState" ID="{43EB708F-38BA-4C29-B8AB-962F28DBB122}">
+					<ChildrenList>
+						<State Name="None" ID="{5315EAE5-2FC7-4BAC-BA73-D3D52ECE2E85}"/>
+						<State Name="InMenu" ID="{B9864B7D-99DE-4732-B979-120D3EE307C5}"/>
+						<State Name="InGame" ID="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}"/>
+						<State Name="StartUp" ID="{99A2681D-DECE-4BD5-86FF-4557E5C4352D}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="InMenu" ID="{B9864B7D-99DE-4732-B979-120D3EE307C5}"/>
+							<EndState Name="InGame" ID="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="KingState" ID="{8CEBA488-496B-4DA1-A8D2-D1235E2E903B}">
+					<ChildrenList>
+						<State Name="None" ID="{D657B5B2-5806-4730-8619-540C08A47D3A}"/>
+						<State Name="Alive" ID="{9FF97352-42DF-4C58-A55D-25922170DE68}"/>
+						<State Name="Dead_Regular" ID="{B2F1529F-A5A8-4E75-B696-8BC08B67C494}"/>
+						<State Name="Dead_Early" ID="{94B7F0F2-7C2D-4268-A061-ED94852C7CCF}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

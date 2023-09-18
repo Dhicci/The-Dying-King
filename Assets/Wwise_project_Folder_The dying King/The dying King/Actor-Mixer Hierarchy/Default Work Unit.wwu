@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A778DA61-8140-4F8E-BB3E-356D6A369401}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{A778DA61-8140-4F8E-BB3E-356D6A369401}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX_Menu" ID="{E5545AA4-EFB7-4EAF-A654-826573F0E4FB}" ShortID="361032731">
+					<ChildrenList>
+						<Sound Name="Goblet" ID="{291BB748-7D7B-4755-B297-7C3B660A5C80}" ShortID="380230083">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Goblet" ID="{841B8DB0-23D9-456D-86D2-51C3E74910B8}">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="5.50024436847497"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_Goblet.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="181696026"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Goblet" ID="{841B8DB0-23D9-456D-86D2-51C3E74910B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<SwitchContainer Name="Mouse_Clicks" ID="{82CE1721-0025-49CC-BA44-49F62EC185FC}" ShortID="198716475">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="InMenu" ID="{B9864B7D-99DE-4732-B979-120D3EE307C5}" WorkUnitID="{8AEFBFFD-13DF-48CA-BD7F-F8BD47CBC677}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}">
+										<Effect Name="Medium (Custom)" ID="{530F44D9-0D58-411F-B418-4E7A6C0EFC1F}" ShortID="71512308" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="2.5"/>
+												<Property Name="Density" Type="Real32" Value="100"/>
+												<Property Name="Diffusion" Type="Real32" Value="32"/>
+												<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+												<Property Name="ERFrontBackDelay" Type="Real32" Value="21"/>
+												<Property Name="ERLevel" Type="Real32" Value="-22"/>
+												<Property Name="ERPattern" Type="int32" Value="10"/>
+												<Property Name="EnableToneControls" Type="bool" Value="True"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="490"/>
+												<Property Name="Filter1Gain" Type="Real32" Value="-2"/>
+												<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+												<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-7"/>
+												<Property Name="HFDamping" Type="Real32" Value="5.45"/>
+												<Property Name="LFELevel" Type="Real32" Value="-64.3"/>
+												<Property Name="PreDelay" Type="Real32" Value="20"/>
+												<Property Name="Quality" Type="int32" Value="16"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-31"/>
+												<Property Name="RoomShape" Type="Real32" Value="49"/>
+												<Property Name="RoomSize" Type="Real32" Value="73"/>
+												<Property Name="StereoWidth" Type="Real32" Value="72"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="MenuState" ID="{43EB708F-38BA-4C29-B8AB-962F28DBB122}" WorkUnitID="{8AEFBFFD-13DF-48CA-BD7F-F8BD47CBC677}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Mouse_Click" ID="{92F15CFF-4FF4-4F27-B50D-F7C97EDA8790}" ShortID="498387722">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{37C96614-7F90-4EF9-BF97-6AA32222CED5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="25"/>
+															<Property Name="Min" Type="Real64" Value="-25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Button_Mouse_Over_3" ID="{43AE7F5D-9BAF-4ABA-AEF2-8ACAB6CBF860}" ShortID="753804250">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Button_Mouse_Over_3" ID="{E10A422D-CCEA-40F9-ABA4-EABD8E6B79CB}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Button_Mouse_Over_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="837588080"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Button_Mouse_Over_3" ID="{E10A422D-CCEA-40F9-ABA4-EABD8E6B79CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Button_Mouse_Over_2" ID="{0C80BE58-682C-4B28-8F93-D90C72E6BBFF}" ShortID="741025015">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Button_Mouse_Over_2" ID="{89E177FD-BCFA-47F9-A4FC-593791351350}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Button_Mouse_Over_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="65960414"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Button_Mouse_Over_2" ID="{89E177FD-BCFA-47F9-A4FC-593791351350}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Button_Mouse_Over_1" ID="{5E465AD5-75CE-4DA4-B982-AC1EFE0A26D9}" ShortID="32017962">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Button_Mouse_Over_1" ID="{63752891-6903-4F70-B025-BDC954E9A469}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Button_Mouse_Over_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1017859008"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Button_Mouse_Over_1" ID="{63752891-6903-4F70-B025-BDC954E9A469}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<Sound Name="MenuMouse_Click" ID="{CBA269E9-C3EF-4B2A-B0EA-039DE03E1123}" ShortID="464309494">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Button_Click" ID="{D1434366-0401-4AAF-84CF-C5843672EB55}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Button_Click.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="114389385"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Button_Click" ID="{D1434366-0401-4AAF-84CF-C5843672EB55}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="MenuMouse_Click" ID="{CBA269E9-C3EF-4B2A-B0EA-039DE03E1123}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Mouse_Click" ID="{92F15CFF-4FF4-4F27-B50D-F7C97EDA8790}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="StartUp" ID="{99A2681D-DECE-4BD5-86FF-4557E5C4352D}"/>
+										<ItemList>
+											<ItemRef Name="MenuMouse_Click" ID="{CBA269E9-C3EF-4B2A-B0EA-039DE03E1123}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="InGame" ID="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}"/>
+										<ItemList>
+											<ItemRef Name="Mouse_Click" ID="{92F15CFF-4FF4-4F27-B50D-F7C97EDA8790}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="InMenu" ID="{B9864B7D-99DE-4732-B979-120D3EE307C5}"/>
+										<ItemList>
+											<ItemRef Name="MenuMouse_Click" ID="{CBA269E9-C3EF-4B2A-B0EA-039DE03E1123}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="None" ID="{5315EAE5-2FC7-4BAC-BA73-D3D52ECE2E85}"/>
+										<ItemList>
+											<ItemRef Name="MenuMouse_Click" ID="{CBA269E9-C3EF-4B2A-B0EA-039DE03E1123}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

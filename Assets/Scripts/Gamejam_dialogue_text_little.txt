@@ -1,0 +1,84 @@
+#0
+"The king has been poisoned."
+"In his dying moment, he calls for you. The sole blood heir to the throne, yet untrained for ruling as a lady of the court."
+"The son-less king must decide whether you're fit to take his place."
+0
+
+#0
+"Ah... My child... Do come forth."
+0
+
+%0
+134) "I'm here for you."
+220) "No, you can't die!"
+214) "Who did this to you?"
+212) "Spare your breath."
+
+#1
+"That... hardly matters now. My fate is... sealed."
+"Be honest with a dying man... Did I rule well?"
+0
+
+#2
+"Be honest with a dying man... Did I rule well?shshrshrshs"
+0
+
+%0
+110) "You were the best king."
+120) "You raised me well."
+200) "No."
+
+#1
+"What... makes you say that?"
+1
+
+#2
+"What... makes you say that?"
+2
+
+%1
+140) "You gave all of yourself to the Kingdom."
+120) "Because you loved me the most."
+124) "You humbly suffered and served the people."
+
+%2
+210) "You lacked backbone."
+314) "Because you're dying! Tell me who did this!"
+430) "You've been stuck in the old ways for too long."
+
+#1
+"That I sure did"
+"I'm almost frightened to ask..."
+"How will history remember me?"
+0
+
+#2
+"Is that so. Well... I did ask you to be honest with me."
+"No need to pretend or hold back anymore. What do you really think?"
+"How will history remember me?"
+0
+
+#3
+"My time has long since come. Please..."
+"Just speak to me."
+"How will history remember me?"
+0
+
+#4
+"Do you think so? Perhaps I have..."
+"Pray tell me then.."
+0
+
+%0
+110) "...A coward."
+120) "The kindest man."
+140) "A slave of the nation."
+114) "We're wasting time. Someone betrayed you."
+
+#1
+"The king attempts to speak. His words choke on his own blood."
+"His eyes roll back. With his last ounce of strength he makes a hand gesture to someome."
+"You look behind you and see two of the ministers at the door. The kingdom's fate has been decided it seems..."
+0
+
+E

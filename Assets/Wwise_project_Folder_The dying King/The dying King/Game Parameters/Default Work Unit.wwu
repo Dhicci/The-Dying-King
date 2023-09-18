@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{780C8BBA-4DE3-4D76-AF7D-FE40FF0443D1}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{780C8BBA-4DE3-4D76-AF7D-FE40FF0443D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Gameplay_RTPC" ID="{97D3520D-3561-4ACF-974F-88C691A89619}" ShortID="604734566">
+					<ChildrenList>
+						<GameParameter Name="Anger" ID="{BC3234F0-FE31-415E-B699-FFB1CFAE830F}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="12"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Empathy" ID="{55116CC9-47FE-405B-B195-AE7AEE8DFADB}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="12"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Loyalty_Ambition" ID="{F50C8BE7-09E1-4387-9599-12B3EE0E5B6B}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-100"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="11"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="11"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

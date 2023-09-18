@@ -1,0 +1,41 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1548586727	MenuState			\Default Work Unit\MenuState	
+	3115119195	KingState			\Default Work Unit\KingState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MenuState			
+	984691642	InGame	MenuState			
+	2530218128	StartUp	MenuState			
+	3374585465	InMenu	MenuState			
+	493873435	Dead_Early	KingState			
+	655265632	Alive	KingState			
+	748895195	None	KingState			
+	1697941970	Dead_Regular	KingState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

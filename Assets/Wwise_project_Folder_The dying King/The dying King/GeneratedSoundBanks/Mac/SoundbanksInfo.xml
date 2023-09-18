@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\</ProjectRoot>
+		<SourceFilesRoot>X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="534561221" Language="SFX" Hash="1056326129">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundbank</ObjectPath>
+			<ShortName>MainSoundbank</ShortName>
+			<Path>MainSoundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3250874435" Name="Button_BackToMenu" ObjectPath="\Events\Default Work Unit\Button_Events\Button_BackToMenu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3374585465" Name="InMenu" ObjectPath="\States\Default Work Unit\MenuState\InMenu"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2312127631" Name="Button_MouseClick" ObjectPath="\Events\Default Work Unit\Button_Events\Button_MouseClick" DurationType="OneShot" DurationMin="0.230068" DurationMax="0.271282">
+					<IncludedMemoryFiles>
+						<File Id="65960414" Language="SFX">
+							<ShortName>SFX_Button_Mouse_Over_2.wav</ShortName>
+							<Path>SFX\SFX_Button_Mouse_Over_2_079E07D9.wem</Path>
+						</File>
+						<File Id="114389385" Language="SFX">
+							<ShortName>SFX_Button_Click.wav</ShortName>
+							<Path>SFX\SFX_Button_Click_079E07D9.wem</Path>
+						</File>
+						<File Id="837588080" Language="SFX">
+							<ShortName>SFX_Button_Mouse_Over_3.wav</ShortName>
+							<Path>SFX\SFX_Button_Mouse_Over_3_079E07D9.wem</Path>
+						</File>
+						<File Id="1017859008" Language="SFX">
+							<ShortName>SFX_Button_Mouse_Over_1.wav</ShortName>
+							<Path>SFX\SFX_Button_Mouse_Over_1_079E07D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{B9864B7D-99DE-4732-B979-120D3EE307C5}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}">
+							<Media>
+								<File Id="65960414"/>
+								<File Id="837588080"/>
+								<File Id="1017859008"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{99A2681D-DECE-4BD5-86FF-4557E5C4352D}">
+							<Media>
+								<File Id="114389385"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="673585283" Name="Button_MouseOver" ObjectPath="\Events\Default Work Unit\Button_Events\Button_MouseOver" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3161578462" Name="GameStartup" ObjectPath="\Events\Default Work Unit\Game Events\GameStartup" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="48769226" Language="SFX">
+							<ShortName>The_dying_king_gameplay_2_loyalty.wav</ShortName>
+							<Path>SFX\The_dying_king_gameplay_2_loyalty_F50F2C6A.wem</Path>
+						</File>
+						<File Id="151040338" Language="SFX">
+							<ShortName>The_dying_king_gameplay_3_empathy.wav</ShortName>
+							<Path>SFX\The_dying_king_gameplay_3_empathy_F50F2C6A.wem</Path>
+						</File>
+						<File Id="398384254" Language="SFX">
+							<ShortName>SFX_Goblet.wav</ShortName>
+							<Path>SFX\SFX_Goblet_AEE66EA7.wem</Path>
+						</File>
+						<File Id="479464872" Language="SFX">
+							<ShortName>The_dying_king_Death.wav</ShortName>
+							<Path>SFX\The_dying_king_Death_AEE66EA7.wem</Path>
+						</File>
+						<File Id="497430627" Language="SFX">
+							<ShortName>The_dying_king_End_Loop.wav</ShortName>
+							<Path>SFX\The_dying_king_End_Loop_AEE66EA7.wem</Path>
+						</File>
+						<File Id="574996976" Language="SFX">
+							<ShortName>The_dying_king_gameplay_1_anger.wav</ShortName>
+							<Path>SFX\The_dying_king_gameplay_1_anger_F50F2C6A.wem</Path>
+						</File>
+						<File Id="706305504" Language="SFX">
+							<ShortName>The_dying_king_gameplay_4_ambition.wav</ShortName>
+							<Path>SFX\The_dying_king_gameplay_4_ambition_F50F2C6A.wem</Path>
+						</File>
+						<File Id="861222522" Language="SFX">
+							<ShortName>The_dying_king_End_Loop_Intro.wav</ShortName>
+							<Path>SFX\The_dying_king_End_Loop_Intro_AEE66EA7.wem</Path>
+						</File>
+						<File Id="882465852" Language="SFX">
+							<ShortName>The_dying_king_gameplay_0_Base.wav</ShortName>
+							<Path>SFX\The_dying_king_gameplay_0_Base_F50F2C6A.wem</Path>
+						</File>
+						<File Id="936435885" Language="SFX">
+							<ShortName>The_dying_king_splash_screen.wav</ShortName>
+							<Path>SFX\The_dying_king_splash_screen_F50F2C6A.wem</Path>
+						</File>
+						<File Id="947760628" Language="SFX">
+							<ShortName>The_dying_king_splash_screen.wav</ShortName>
+							<Path>SFX\The_dying_king_splash_screen_AEE66EA7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{99A2681D-DECE-4BD5-86FF-4557E5C4352D}">
+							<Children>
+								<SwitchContainer SwitchValue="{8CEBA488-496B-4DA1-A8D2-D1235E2E903B}">
+									<Media>
+										<File Id="936435885"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}">
+							<Children>
+								<SwitchContainer SwitchValue="{9FF97352-42DF-4C58-A55D-25922170DE68}">
+									<Media>
+										<File Id="48769226"/>
+										<File Id="151040338"/>
+										<File Id="479464872"/>
+										<File Id="574996976"/>
+										<File Id="706305504"/>
+										<File Id="882465852"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B9864B7D-99DE-4732-B979-120D3EE307C5}">
+							<Children>
+								<SwitchContainer SwitchValue="{8CEBA488-496B-4DA1-A8D2-D1235E2E903B}">
+									<Media>
+										<File Id="947760628"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}">
+							<Children>
+								<SwitchContainer SwitchValue="{94B7F0F2-7C2D-4268-A061-ED94852C7CCF}">
+									<Media>
+										<File Id="497430627"/>
+										<File Id="861222522"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}">
+							<Children>
+								<SwitchContainer SwitchValue="{B2F1529F-A5A8-4E75-B696-8BC08B67C494}">
+									<Media>
+										<File Id="497430627"/>
+										<File Id="861222522"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2530218128" Name="StartUp" ObjectPath="\States\Default Work Unit\MenuState\StartUp"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1902257150" Name="KingDeath_Early" ObjectPath="\Events\Default Work Unit\Game Events\KingDeath_Early" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="493873435" Name="Dead_Early" ObjectPath="\States\Default Work Unit\KingState\Dead_Early"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4013156071" Name="KingDeath_Regular" ObjectPath="\Events\Default Work Unit\Game Events\KingDeath_Regular" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1697941970" Name="Dead_Regular" ObjectPath="\States\Default Work Unit\KingState\Dead_Regular"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3852047270" Name="PlayButton_Click" ObjectPath="\Events\Default Work Unit\Button_Events\PlayButton_Click" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\KingState\Alive"/>
+						<ActionSetStateEntry Id="984691642" Name="InGame" ObjectPath="\States\Default Work Unit\MenuState\InGame"/>
+						<ActionSetStateEntry Id="1697941970" Name="Dead_Regular" ObjectPath="\States\Default Work Unit\KingState\Dead_Regular"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="48769226" Language="SFX">
+					<ShortName>The_dying_king_gameplay_2_loyalty.wav</ShortName>
+					<Path>SFX\The_dying_king_gameplay_2_loyalty_F50F2C6A.wem</Path>
+				</File>
+				<File Id="65960414" Language="SFX">
+					<ShortName>SFX_Button_Mouse_Over_2.wav</ShortName>
+					<Path>SFX\SFX_Button_Mouse_Over_2_079E07D9.wem</Path>
+				</File>
+				<File Id="114389385" Language="SFX">
+					<ShortName>SFX_Button_Click.wav</ShortName>
+					<Path>SFX\SFX_Button_Click_079E07D9.wem</Path>
+				</File>
+				<File Id="151040338" Language="SFX">
+					<ShortName>The_dying_king_gameplay_3_empathy.wav</ShortName>
+					<Path>SFX\The_dying_king_gameplay_3_empathy_F50F2C6A.wem</Path>
+				</File>
+				<File Id="398384254" Language="SFX">
+					<ShortName>SFX_Goblet.wav</ShortName>
+					<Path>SFX\SFX_Goblet_AEE66EA7.wem</Path>
+				</File>
+				<File Id="479464872" Language="SFX">
+					<ShortName>The_dying_king_Death.wav</ShortName>
+					<Path>SFX\The_dying_king_Death_AEE66EA7.wem</Path>
+				</File>
+				<File Id="497430627" Language="SFX">
+					<ShortName>The_dying_king_End_Loop.wav</ShortName>
+					<Path>SFX\The_dying_king_End_Loop_AEE66EA7.wem</Path>
+				</File>
+				<File Id="574996976" Language="SFX">
+					<ShortName>The_dying_king_gameplay_1_anger.wav</ShortName>
+					<Path>SFX\The_dying_king_gameplay_1_anger_F50F2C6A.wem</Path>
+				</File>
+				<File Id="706305504" Language="SFX">
+					<ShortName>The_dying_king_gameplay_4_ambition.wav</ShortName>
+					<Path>SFX\The_dying_king_gameplay_4_ambition_F50F2C6A.wem</Path>
+				</File>
+				<File Id="837588080" Language="SFX">
+					<ShortName>SFX_Button_Mouse_Over_3.wav</ShortName>
+					<Path>SFX\SFX_Button_Mouse_Over_3_079E07D9.wem</Path>
+				</File>
+				<File Id="861222522" Language="SFX">
+					<ShortName>The_dying_king_End_Loop_Intro.wav</ShortName>
+					<Path>SFX\The_dying_king_End_Loop_Intro_AEE66EA7.wem</Path>
+				</File>
+				<File Id="882465852" Language="SFX">
+					<ShortName>The_dying_king_gameplay_0_Base.wav</ShortName>
+					<Path>SFX\The_dying_king_gameplay_0_Base_F50F2C6A.wem</Path>
+				</File>
+				<File Id="936435885" Language="SFX">
+					<ShortName>The_dying_king_splash_screen.wav</ShortName>
+					<Path>SFX\The_dying_king_splash_screen_F50F2C6A.wem</Path>
+				</File>
+				<File Id="947760628" Language="SFX">
+					<ShortName>The_dying_king_splash_screen.wav</ShortName>
+					<Path>SFX\The_dying_king_splash_screen_AEE66EA7.wem</Path>
+				</File>
+				<File Id="1017859008" Language="SFX">
+					<ShortName>SFX_Button_Mouse_Over_1.wav</ShortName>
+					<Path>SFX\SFX_Button_Mouse_Over_1_079E07D9.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="954941502" Name="Anger" ObjectPath="\Game Parameters\Default Work Unit\Gameplay_RTPC\Anger"/>
+				<GameParameter Id="1561647163" Name="Empathy" ObjectPath="\Game Parameters\Default Work Unit\Gameplay_RTPC\Empathy"/>
+				<GameParameter Id="3105742403" Name="Loyalty_Ambition" ObjectPath="\Game Parameters\Default Work Unit\Gameplay_RTPC\Loyalty_Ambition"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="493873435" Name="Dead_Early" ObjectPath="\States\Default Work Unit\KingState\Dead_Early" GUID="{94B7F0F2-7C2D-4268-A061-ED94852C7CCF}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\KingState\Alive" GUID="{9FF97352-42DF-4C58-A55D-25922170DE68}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="984691642" Name="InGame" ObjectPath="\States\Default Work Unit\MenuState\InGame" GUID="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1548586727" Name="MenuState" ObjectPath="\States\Default Work Unit\MenuState" GUID="{43EB708F-38BA-4C29-B8AB-962F28DBB122}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MenuState\None" GUID="{5315EAE5-2FC7-4BAC-BA73-D3D52ECE2E85}"/>
+						<State Id="3374585465" Name="InMenu" ObjectPath="\States\Default Work Unit\MenuState\InMenu" GUID="{B9864B7D-99DE-4732-B979-120D3EE307C5}"/>
+						<State Id="984691642" Name="InGame" ObjectPath="\States\Default Work Unit\MenuState\InGame" GUID="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}"/>
+						<State Id="2530218128" Name="StartUp" ObjectPath="\States\Default Work Unit\MenuState\StartUp" GUID="{99A2681D-DECE-4BD5-86FF-4557E5C4352D}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1697941970" Name="Dead_Regular" ObjectPath="\States\Default Work Unit\KingState\Dead_Regular" GUID="{B2F1529F-A5A8-4E75-B696-8BC08B67C494}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2530218128" Name="StartUp" ObjectPath="\States\Default Work Unit\MenuState\StartUp" GUID="{99A2681D-DECE-4BD5-86FF-4557E5C4352D}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3115119195" Name="KingState" ObjectPath="\States\Default Work Unit\KingState" GUID="{8CEBA488-496B-4DA1-A8D2-D1235E2E903B}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\KingState\None" GUID="{D657B5B2-5806-4730-8619-540C08A47D3A}"/>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\KingState\Alive" GUID="{9FF97352-42DF-4C58-A55D-25922170DE68}"/>
+						<State Id="1697941970" Name="Dead_Regular" ObjectPath="\States\Default Work Unit\KingState\Dead_Regular" GUID="{B2F1529F-A5A8-4E75-B696-8BC08B67C494}"/>
+						<State Id="493873435" Name="Dead_Early" ObjectPath="\States\Default Work Unit\KingState\Dead_Early" GUID="{94B7F0F2-7C2D-4268-A061-ED94852C7CCF}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3374585465" Name="InMenu" ObjectPath="\States\Default Work Unit\MenuState\InMenu" GUID="{B9864B7D-99DE-4732-B979-120D3EE307C5}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1684345789">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

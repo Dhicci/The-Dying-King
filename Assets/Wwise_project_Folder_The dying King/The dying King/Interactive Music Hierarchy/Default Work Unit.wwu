@@ -1,0 +1,2121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Music" ID="{2CAD63D5-FA18-4D2C-9207-6B5061CD8791}" ShortID="47283743">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Gameplay" ID="{DD2F1899-3AB5-477A-B5C9-F10DB2DE10A3}" ShortID="490287727">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="RenderEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Tempo" Type="Real64" Value="160"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>0.2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Cut_3dB_100Hz" ID="{67423B74-4F0A-4719-92FE-343347C717C7}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Main_Gameplay_tracks" ID="{F6480198-FA68-41BC-8A8F-26838F0643C5}" ShortID="366017713">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="75000"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The_dying_king_gameplay_1_anger" ID="{13512D52-CECF-4868-A0A8-E621B2DBE67F}" ShortID="366689145">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{F5D60F10-72D2-4888-AEE1-72409980E209}" ShortID="744529428">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Anger" ID="{BC3234F0-FE31-415E-B699-FFB1CFAE830F}" WorkUnitID="{780C8BBA-4DE3-4D76-AF7D-FE40FF0443D1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{1698F5C8-18F8-44DE-B2F8-B4905525DCD7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>29.98933</XPos>
+																		<YPos>-2.73676</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The_dying_king_gameplay_1_anger" ID="{75F1FB78-541E-4968-B8AF-9FBF0EA35AF5}">
+													<Language>SFX</Language>
+													<AudioFile>The_dying_king_gameplay_1_anger.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="574996976"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3647DDAB-456C-462C-9914-B4564CEBFDBF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{D0D33146-6D66-4E0A-8991-0D37869B12E2}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The_dying_king_gameplay_1_anger" ID="{5FAABF0C-499B-41A2-8C04-3AE32B14E1CE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="75000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The_dying_king_gameplay_1_anger" ID="{75F1FB78-541E-4968-B8AF-9FBF0EA35AF5}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="The_dying_king_gameplay_2_loyalty" ID="{C8198C3A-018A-4D32-BE49-F962E5FF4435}" ShortID="1031767708">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{5A69155C-0AF7-4494-82BF-2D69491206D4}" ShortID="579261740">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Loyalty_Ambition" ID="{F50C8BE7-09E1-4387-9599-12B3EE0E5B6B}" WorkUnitID="{780C8BBA-4DE3-4D76-AF7D-FE40FF0443D1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{8D39770B-1B60-40A7-A349-F546A2437F39}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-100</XPos>
+																		<YPos>76</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>5</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4.1</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{430B3C68-8431-444B-AC57-330B07772237}" ShortID="625583382">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Loyalty_Ambition" ID="{F50C8BE7-09E1-4387-9599-12B3EE0E5B6B}" WorkUnitID="{780C8BBA-4DE3-4D76-AF7D-FE40FF0443D1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{BC485DD0-F985-43E4-8F53-364224427841}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-3</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The_dying_king_gameplay_2_loyalty" ID="{575EC6C8-EFAB-4F64-8513-F7A729E27CAB}">
+													<Language>SFX</Language>
+													<AudioFile>The_dying_king_gameplay_2_loyalty.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="48769226"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{E98403B6-05FA-4AA8-900F-F695D4E6C8CB}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{90A47D2B-6976-48A6-90FC-1E021EC7418E}" ShortID="808221433">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Loyalty_Ambition" ID="{F50C8BE7-09E1-4387-9599-12B3EE0E5B6B}" WorkUnitID="{780C8BBA-4DE3-4D76-AF7D-FE40FF0443D1}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{FBE28C57-7CE5-43B4-9414-F5973EB97EE9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-100</XPos>
+																				<YPos>44.23077</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Exp2</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{258D953F-2B04-4829-AF37-7FBEFED9BB20}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3AD0727B-1FAD-416A-A0A3-24DD53788BE7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The_dying_king_gameplay_2_loyalty" ID="{4D757627-FD95-4F14-89E5-8B5B4C0AFC13}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="75000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The_dying_king_gameplay_2_loyalty" ID="{575EC6C8-EFAB-4F64-8513-F7A729E27CAB}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="The_dying_king_gameplay_3_empathy" ID="{8306B34A-FF78-4303-9AFA-642F476AFB53}" ShortID="689278633">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{D98F0312-7606-44CC-9099-B92859F68800}" ShortID="28519547">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Empathy" ID="{55116CC9-47FE-405B-B195-AE7AEE8DFADB}" WorkUnitID="{780C8BBA-4DE3-4D76-AF7D-FE40FF0443D1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{869BF63A-FDE1-481A-9F48-90DF231DC10C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>29.98933</XPos>
+																		<YPos>-2.73676</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The_dying_king_gameplay_3_empathy" ID="{8D4EF680-CBE3-4921-B4A3-D2F01A8B8EC8}">
+													<Language>SFX</Language>
+													<AudioFile>The_dying_king_gameplay_3_empathy.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="151040338"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C44FBDAE-3293-43E4-8645-DD25185FD953}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4FBFE657-F9A9-4CA6-A9FD-5A8EB72A62A2}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The_dying_king_gameplay_3_empathy" ID="{0312D866-A387-4F8F-A232-B25D2DF1ACA5}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="75000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The_dying_king_gameplay_3_empathy" ID="{8D4EF680-CBE3-4921-B4A3-D2F01A8B8EC8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="The_dying_king_gameplay_4_ambition" ID="{03A60F4A-01CE-4788-A505-B3CD9CBC42B0}" ShortID="421195045">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{7507CF54-CE8C-46C0-A4EC-FE2B781F71B7}" ShortID="703230078">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Loyalty_Ambition" ID="{F50C8BE7-09E1-4387-9599-12B3EE0E5B6B}" WorkUnitID="{780C8BBA-4DE3-4D76-AF7D-FE40FF0443D1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{EE53F9F6-CB39-4617-8ABF-86EE38858724}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>5</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>74</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4.2</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{F944F35C-9310-4BAE-AAAA-00B685D03757}" ShortID="386089757">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Loyalty_Ambition" ID="{F50C8BE7-09E1-4387-9599-12B3EE0E5B6B}" WorkUnitID="{780C8BBA-4DE3-4D76-AF7D-FE40FF0443D1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{FDA34BAB-0F2F-413A-9F06-AE63E1113610}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-3</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The_dying_king_gameplay_4_ambition" ID="{B25C0232-2534-4169-9160-D35706F8F2D0}">
+													<Language>SFX</Language>
+													<AudioFile>The_dying_king_gameplay_4_ambition.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="706305504"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{B7B258D5-72EA-4B09-9405-A4A8431F1CEF}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{079931BA-AD80-4FF2-BF7F-1F18D48476CB}" ShortID="940758257">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Loyalty_Ambition" ID="{F50C8BE7-09E1-4387-9599-12B3EE0E5B6B}" WorkUnitID="{780C8BBA-4DE3-4D76-AF7D-FE40FF0443D1}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{438CECD8-6138-42F3-B7B6-4118F2DED372}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-100</XPos>
+																				<YPos>200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Log2</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>-0.05534</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-51.92307</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+												</Panner>
+												<Position Name="" ID="{667FCDC1-61E5-408C-8494-3E38E87787B4}"/>
+											</PositioningInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E9B0FA9B-3D02-474A-8E63-6574E0577C73}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8A00EA00-9671-4A38-B7D7-38C330502DAA}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The_dying_king_gameplay_4_ambition" ID="{4C8CBD95-A44F-46A6-9858-3EC1518D0CA0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="75000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The_dying_king_gameplay_4_ambition" ID="{B25C0232-2534-4169-9160-D35706F8F2D0}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="The_dying_king_gameplay_0_Base" ID="{3218A13A-F201-4FAD-93F9-48FFFB996E90}" ShortID="354045778">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The_dying_king_gameplay_0_Base" ID="{1E8ACA86-AC86-4E5E-94A0-10FE64CF32DF}">
+													<Language>SFX</Language>
+													<AudioFile>The_dying_king_gameplay_0_Base.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="882465852"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3F8F00E1-0C49-4F5C-B82E-F0F257811DEF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A4D752D4-6C49-4E09-9A6B-15B5825DD54E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The_dying_king_gameplay_0_Base" ID="{2CC2EBFF-0E82-4B67-978C-48883F4B0E36}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="75000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The_dying_king_gameplay_0_Base" ID="{1E8ACA86-AC86-4E5E-94A0-10FE64CF32DF}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{228BE2FE-8CB8-4BE5-941E-20CCA311F0FD}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6301D11E-C5E7-437B-B7DD-1BCFC6698AAA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="60000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+										<ObjectList Name="Stingers">
+											<Reference>
+												<Local>
+													<MusicStinger Name="" ID="{21664DC0-403B-45BB-8A5E-731ADDFC3988}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="2"/>
+														</PropertyList>
+														<SegmentRef Name="Death_Transition" ID="{7A7AF1F8-1B66-48E5-938C-EC2742712B8D}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}"/>
+													</MusicStinger>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{068AB154-38B4-4F77-8D6C-E61E77000E05}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{4F4F6619-57D5-45DF-B103-355A315271C2}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{F9B40023-30B4-41FB-9822-14DE1C29D2AB}" ShortID="545335005">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{200B3F8F-F55A-4F4D-84CA-734150DC12E8}" ShortID="504514939">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Main_Gameplay_tracks" ID="{F6480198-FA68-41BC-8A8F-26838F0643C5}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<Folder Name="Transitions" ID="{E17C8376-B677-45DF-8221-794A0117AA5E}" ShortID="261742766">
+							<ChildrenList>
+								<MusicSegment Name="Death_Transition" ID="{7A7AF1F8-1B66-48E5-938C-EC2742712B8D}" ShortID="655944006">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17383.8028169014"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="160"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The_dying_king_Death" ID="{DB78FCA3-AC6E-4E5C-B86B-AA562785C015}" ShortID="786099365">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The_dying_king_Death" ID="{068D9EA9-25D9-4083-843F-90F54F86723F}">
+													<Language>SFX</Language>
+													<AudioFile>The_dying_king_Death.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="479464872"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D2424A83-5A7C-4235-9765-32E9E12A1B71}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7FA6A063-A891-4749-92EF-8D020CEF6EE3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The_dying_king_Death" ID="{9C3A9A93-457D-4333-BA52-A974E34FE92E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The_dying_king_Death" ID="{068D9EA9-25D9-4083-843F-90F54F86723F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The_dying_king_Death" ID="{ED54CC07-88A0-4865-8773-D198792212FC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The_dying_king_Death" ID="{068D9EA9-25D9-4083-843F-90F54F86723F}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{C9E8F0C8-6C9B-47F4-9693-AC9CE0E51F88}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>16.5</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{85ED1784-267A-4D31-B4BA-878CB9A5E83C}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>16.5</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{C203F2DD-F970-4780-A76B-5E3D73892C79}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>16.5</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{89D596D4-60A3-4C81-8448-3F79CC035AB9}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="1500"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{5BC7B67C-74E7-4B86-8E3B-A9D25E2775E1}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="6000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Goblet_Transition" ID="{0F0EBA1A-DD30-4859-9EAB-C4187FEF87B1}" ShortID="594486371">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="9406.31519274376"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="SFX_Goblet" ID="{74FDC3A6-22A9-4C6E-A5D9-6D6B0396DEBC}" ShortID="208744787">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Goblet" ID="{2A962CA2-29C1-481B-BF6A-B28464CC4C34}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Goblet.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="398384254"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2ADDC9A2-D2A2-428E-97E7-7D557D3D3CE2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7A7CC968-616E-4677-B362-FB6F30B4CB35}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="SFX_Goblet" ID="{2DAE1079-35A3-494B-B6EC-200D77313796}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="7781.31519274376"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="SFX_Goblet" ID="{2A962CA2-29C1-481B-BF6A-B28464CC4C34}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{72D6D476-6CC7-4EDD-B4C6-C831EC270B8B}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{24850D97-7A37-4BB6-9084-EB14063DADCE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="3500"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</Folder>
+						<MusicSwitchContainer Name="End_Loop" ID="{E7AFA679-961C-43C3-9D34-4607121533A1}" ShortID="498124647">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="70"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2.2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicPlaylistContainer Name="King_Death_Early" ID="{42323BF6-FF8D-4112-B8F2-23B76F53CCE9}" ShortID="483133099">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="The_dying_king_End_Loop" ID="{BD08F30A-0036-4C31-8602-1662D1ADF2E6}" ShortID="827760141">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="75428.5714285714"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="The_dying_king_End_Loop" ID="{6F1B4E8F-CD1D-4B92-B3B5-C6915C9579F2}" ShortID="27622089">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The_dying_king_End_Loop" ID="{EEF30DA5-C835-46C0-B070-834D3264185B}">
+															<Language>SFX</Language>
+															<AudioFile>The_dying_king_End_Loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="497430627"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{0720E49A-DC9C-46D1-A92B-C2F0200EAB04}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{3E42672B-1E58-45B1-8746-1CEC0A64F5B0}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="The_dying_king_End_Loop" ID="{C8365B42-0C6F-450F-A513-BE120C7B9033}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="75428.5714285714"/>
+																								<Property Name="FadeInDuration" Type="Real64" Value="1195.17102615694"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="The_dying_king_End_Loop" ID="{EEF30DA5-C835-46C0-B070-834D3264185B}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{559F7CDA-F74A-4F08-B54F-9F1D33D5C316}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{2516675F-28F9-4F94-BD7B-5929F894EC5B}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="68571.4285714286"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+										<MusicSegment Name="The_dying_king_End_Loop_Intro" ID="{1C2563C6-8501-4ACB-AA67-11F39ED0F0BD}" ShortID="522354470">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="102857.142857143"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="The_dying_king_End_Loop_Intro" ID="{392E3C22-422F-46F9-952A-8E4DF7CFD39A}" ShortID="418232219">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The_dying_king_End_Loop_Intro" ID="{E4197A48-A0A1-4BFC-978B-42A7287B8881}">
+															<Language>SFX</Language>
+															<AudioFile>The_dying_king_End_Loop_Intro.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="861222522"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{E40D1367-C5FB-49FF-ABDC-289EAE8B4605}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{C39A44F4-7A6D-47C5-929C-74D63C65D5A1}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="The_dying_king_End_Loop_Intro" ID="{72BB6430-B868-4D64-8AFB-B7A88A691224}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="102857.142857143"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="The_dying_king_End_Loop_Intro" ID="{E4197A48-A0A1-4BFC-978B-42A7287B8881}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{4D437C8A-CED0-4C90-AFFE-E859F7BA9461}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{D4F9524A-9EF7-412F-85D0-0E427B680740}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="96000"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D9B4E367-A7ED-43B2-BE3A-510CFBE86E64}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{211B1246-3D61-4BB9-82D1-4D6C9568DEE5}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists/>
+									<Playlist>
+										<MusicPlaylistItem Name="" ID="{0176538E-3364-4763-A7D2-99BF3ADBA348}" ShortID="1038779817">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{406A8CE2-0F68-4862-8780-357B496F0049}" ShortID="951891119">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="The_dying_king_End_Loop_Intro" ID="{1C2563C6-8501-4ACB-AA67-11F39ED0F0BD}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{D8FD64B9-16E9-4C2D-B1B8-83648F6D6939}" ShortID="763983662">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="The_dying_king_End_Loop" ID="{BD08F30A-0036-4C31-8602-1662D1ADF2E6}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Playlist>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="King_Death_Regular" ID="{48EB2938-14B3-4778-9D64-0A6DF1ABF344}" ShortID="928930045">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="The_dying_king_End_Loop_Intro" ID="{573E76C0-EF5A-42F2-AD96-7AA2F4FEAA5D}" ShortID="880843086">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="102857.142857143"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="The_dying_king_End_Loop_Intro" ID="{8E250B00-C0A7-42B0-9877-E012153FBFB2}" ShortID="121170982">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The_dying_king_End_Loop_Intro" ID="{163E304B-7E23-471A-BAC9-685C11BE4687}">
+															<Language>SFX</Language>
+															<AudioFile>The_dying_king_End_Loop_Intro.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="861222522"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{3A9CC05A-1F93-493F-8C1B-DD47E929C042}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{4E461D65-1CC8-4D00-8975-413FF73C6EEF}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="The_dying_king_End_Loop_Intro" ID="{6CEDBAA1-F63D-4D57-93C1-2BEA2A72A04A}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="102857.142857143"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="The_dying_king_End_Loop_Intro" ID="{163E304B-7E23-471A-BAC9-685C11BE4687}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{66D4D68A-D5D0-4C92-9245-C2BBAD72BC8D}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{E2191751-3240-40B9-B95E-90BE8B72D7FD}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="96000"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+										<MusicSegment Name="The_dying_king_End_Loop" ID="{AFEEFFEB-DAEC-44EA-99CB-33BC58410B23}" ShortID="767900069">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="75428.5714285714"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="The_dying_king_End_Loop" ID="{7FA8F44B-5A09-428D-B2A8-41FE97071434}" ShortID="482938454">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The_dying_king_End_Loop" ID="{9EC35382-235F-4D5F-A6BF-2FCB7C96310D}">
+															<Language>SFX</Language>
+															<AudioFile>The_dying_king_End_Loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="497430627"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{6445314C-A887-4202-A806-A275B71BE885}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{1EB35FE5-5200-477D-B20B-1BFA33F984CC}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="The_dying_king_End_Loop" ID="{B35ED8BB-8372-4BC7-88D8-640BF59EC45E}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="75428.5714285714"/>
+																								<Property Name="FadeInDuration" Type="Real64" Value="1327.96780684104"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="The_dying_king_End_Loop" ID="{9EC35382-235F-4D5F-A6BF-2FCB7C96310D}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{E10462F7-A212-473E-A826-181083A08F69}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{DB208BA4-D333-4DC4-8C89-9E54547457B7}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="68571.4285714286"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D562DD3A-052E-4FEB-B112-1DDD55BEC8DC}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{38A77F6F-D748-4FD1-B1A4-72C99F33AFEE}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists/>
+									<Playlist>
+										<MusicPlaylistItem Name="" ID="{F226A05C-30C1-4FD2-A0A0-B8DE598EE3C7}" ShortID="73591786">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{4D90E29E-1BCF-4D9E-97D0-E653DA777489}" ShortID="101086928">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="The_dying_king_End_Loop_Intro" ID="{573E76C0-EF5A-42F2-AD96-7AA2F4FEAA5D}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{6329145E-98A5-4E86-A279-CE19B32D5204}" ShortID="179251161">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="The_dying_king_End_Loop" ID="{AFEEFFEB-DAEC-44EA-99CB-33BC58410B23}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Playlist>
+								</MusicPlaylistContainer>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{22535046-FF13-4455-85FA-EC9187B8403F}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{539F4AF1-CB96-4E0D-B83B-A67BECCBE18A}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<ArgumentList>
+								<ArgumentRef Name="KingState" ID="{8CEBA488-496B-4DA1-A8D2-D1235E2E903B}"/>
+							</ArgumentList>
+							<EntryList>
+								<Entry>
+									<Path>
+										<PathElementRef Name="Dead_Early" ID="{94B7F0F2-7C2D-4268-A061-ED94852C7CCF}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="King_Death_Early" ID="{42323BF6-FF8D-4112-B8F2-23B76F53CCE9}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="Dead_Regular" ID="{B2F1529F-A5A8-4E75-B696-8BC08B67C494}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="King_Death_Regular" ID="{48EB2938-14B3-4778-9D64-0A6DF1ABF344}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="None" ID="{D657B5B2-5806-4730-8619-540C08A47D3A}"/>
+									</Path>
+									<AudioNodeInfo>
+										<NoObject Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+							</EntryList>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="Menu" ID="{0525171B-D543-4EE3-AC04-048F9F9409BE}" ShortID="766220358">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="RenderEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1.7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Cut_3dB_100Hz" ID="{67423B74-4F0A-4719-92FE-343347C717C7}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicPlaylistContainer Name="StartupSequence" ID="{7D42D42E-108C-4065-815F-3D0470EF3401}" ShortID="120208070">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="SplashScreen" ID="{6A8A8921-77E1-4C9F-9002-98968D520CEE}" ShortID="167445196">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="218686.060094521"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="The_dying_king_splash_screen" ID="{E1EE79CA-5658-4DE9-BAD0-E3D74124BC7D}" ShortID="965277708">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The_dying_king_splash_screen" ID="{ECB18C9E-DC8F-48EF-98C2-51A53121BA8C}">
+															<Language>SFX</Language>
+															<AudioFile>The_dying_king_splash_screen.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="936435885"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{374A8A38-3FCB-43FC-A77C-450465341DAA}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{5ADF6CEB-021D-4AEE-AC03-BCF42A3C2DE8}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="The_dying_king_splash_screen" ID="{B405660E-6643-4E0C-85A6-0F1D846F4E32}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="113571.405895692"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="The_dying_king_splash_screen" ID="{ECB18C9E-DC8F-48EF-98C2-51A53121BA8C}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{40AF56EB-5F60-46C0-A494-DE7240C418BE}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{887DECB8-9910-4863-9BFB-3FD274A46010}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="100266.513400046"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+										<MusicSegment Name="MainMenu" ID="{9F90935C-3EB7-451A-9547-9FBDC3AEFE76}" ShortID="160841681">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="122069.266372042"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="The_dying_king_splash_screen" ID="{E11A492D-B266-4FEA-99BE-26DC3FD240B6}" ShortID="673076061">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The_dying_king_splash_screen" ID="{36C297E7-11C9-4F6C-A33E-519BCC1F642A}">
+															<Language>SFX</Language>
+															<AudioFile>The_dying_king_splash_screen.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="936435885"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{AAEE94D7-9A99-44AB-BE7E-2B58AA358BA8}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{C0914A22-A3F5-41F4-A64B-386AF1E75F54}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="The_dying_king_splash_screen" ID="{C8903823-B1AE-47B5-B174-AF0B473380BB}">
+																							<PropertyList>
+																								<Property Name="BeginTrimOffset" Type="Real64" Value="25693.5310873175"/>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="105095.909438975"/>
+																								<Property Name="FadeInDuration" Type="Real64" Value="4001.62582471075"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="-25693.5310873175"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="The_dying_king_splash_screen" ID="{36C297E7-11C9-4F6C-A33E-519BCC1F642A}"/>
+																							<PropertyCurveList>
+																								<PropertyCurve PropertyName="Highpass">
+																									<Curve Name="" ID="{E28F94FD-D96F-4661-9AFD-8DFC90718FD8}">
+																										<PropertyList>
+																											<Property Name="Flags" Type="int32" Value="1"/>
+																										</PropertyList>
+																										<PointList>
+																											<Point>
+																												<XPos>25.69353</XPos>
+																												<YPos>0</YPos>
+																												<Flags>5</Flags>
+																											</Point>
+																											<Point>
+																												<XPos>105.09591</XPos>
+																												<YPos>0</YPos>
+																												<Flags>37</Flags>
+																											</Point>
+																										</PointList>
+																									</Curve>
+																								</PropertyCurve>
+																								<PropertyCurve PropertyName="Lowpass">
+																									<Curve Name="" ID="{1B1E4F60-E330-456C-9930-D1888C5E7A63}">
+																										<PropertyList>
+																											<Property Name="Flags" Type="int32" Value="1"/>
+																										</PropertyList>
+																										<PointList>
+																											<Point>
+																												<XPos>25.69353</XPos>
+																												<YPos>0</YPos>
+																												<Flags>5</Flags>
+																											</Point>
+																											<Point>
+																												<XPos>105.09591</XPos>
+																												<YPos>0</YPos>
+																												<Flags>37</Flags>
+																											</Point>
+																										</PointList>
+																									</Curve>
+																								</PropertyCurve>
+																								<PropertyCurve PropertyName="Volume">
+																									<Curve Name="" ID="{525A3314-31A8-40B9-8779-C3F7716D9223}">
+																										<PropertyList>
+																											<Property Name="Flags" Type="int32" Value="3"/>
+																										</PropertyList>
+																										<PointList>
+																											<Point>
+																												<XPos>25.69353</XPos>
+																												<YPos>0</YPos>
+																												<Flags>5</Flags>
+																											</Point>
+																											<Point>
+																												<XPos>105.09591</XPos>
+																												<YPos>0</YPos>
+																												<Flags>37</Flags>
+																											</Point>
+																										</PointList>
+																									</Curve>
+																								</PropertyCurve>
+																							</PropertyCurveList>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{23CE2558-BC76-4C8F-9517-AB51D451229F}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{78FEEB41-B7A4-45B7-82F9-2B87877148F6}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="76580.7191162851"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{13FF07F4-A1D4-445E-B530-2D1C2613284E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{D8BA10C1-5FE5-4924-AA26-DF7460319A11}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists/>
+									<Playlist>
+										<MusicPlaylistItem Name="" ID="{19BC0460-1257-45C7-84ED-6697CAD01662}" ShortID="902628742">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{0FA74E62-D54E-4B4C-8F01-0BACBA582F59}" ShortID="917174460">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="SplashScreen" ID="{6A8A8921-77E1-4C9F-9002-98968D520CEE}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{B7E285AB-A177-4938-89EA-A9D59A17A3D3}" ShortID="664341692">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="MainMenu" ID="{9F90935C-3EB7-451A-9547-9FBDC3AEFE76}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Playlist>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Menu_Music" ID="{CE0F6AC6-72DA-4318-B507-31EE745F941C}" ShortID="304638904">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="MainMenu" ID="{FD198ADF-52EC-4501-B6FC-53DBAB307FD8}" ShortID="789043304">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="122069.266372042"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E3B0AC3B-486C-41B4-9BBB-4B41316A14F4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="The_dying_king_splash_screen" ID="{844D255C-987D-41D6-9BC2-D589A2198F7B}" ShortID="338361474">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46C71D8A-8815-4995-A130-F2D92BEB8F59}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="The_dying_king_splash_screen" ID="{CAEC29DA-6CD4-4ABA-8144-E0E06A446310}">
+															<Language>SFX</Language>
+															<AudioFile>The_dying_king_splash_screen.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="947760628"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{362AD319-D5A6-4132-8D56-7FE978A7D1E6}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{50CB7723-14A1-44C6-95D9-3C8B21491F0C}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="The_dying_king_splash_screen" ID="{63455E50-AD9B-46DC-9A02-27662DAA9A8E}">
+																							<PropertyList>
+																								<Property Name="BeginTrimOffset" Type="Real64" Value="25693.5310873175"/>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="105095.909438975"/>
+																								<Property Name="FadeInDuration" Type="Real64" Value="4753.81320552439"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="-25693.5310873175"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="The_dying_king_splash_screen" ID="{CAEC29DA-6CD4-4ABA-8144-E0E06A446310}"/>
+																							<PropertyCurveList>
+																								<PropertyCurve PropertyName="Highpass">
+																									<Curve Name="" ID="{6B0B8BE2-F0CC-4E22-B0B0-C76198957F21}">
+																										<PropertyList>
+																											<Property Name="Flags" Type="int32" Value="1"/>
+																										</PropertyList>
+																										<PointList>
+																											<Point>
+																												<XPos>25.69353</XPos>
+																												<YPos>0</YPos>
+																												<Flags>5</Flags>
+																											</Point>
+																											<Point>
+																												<XPos>105.09591</XPos>
+																												<YPos>0</YPos>
+																												<Flags>37</Flags>
+																											</Point>
+																										</PointList>
+																									</Curve>
+																								</PropertyCurve>
+																								<PropertyCurve PropertyName="Lowpass">
+																									<Curve Name="" ID="{FA6F93B8-F4F4-4963-A8F7-4BF443C1461D}">
+																										<PropertyList>
+																											<Property Name="Flags" Type="int32" Value="1"/>
+																										</PropertyList>
+																										<PointList>
+																											<Point>
+																												<XPos>25.69353</XPos>
+																												<YPos>0</YPos>
+																												<Flags>5</Flags>
+																											</Point>
+																											<Point>
+																												<XPos>105.09591</XPos>
+																												<YPos>0</YPos>
+																												<Flags>37</Flags>
+																											</Point>
+																										</PointList>
+																									</Curve>
+																								</PropertyCurve>
+																								<PropertyCurve PropertyName="Volume">
+																									<Curve Name="" ID="{2787C5A8-B839-475F-8AA1-304F2A26463A}">
+																										<PropertyList>
+																											<Property Name="Flags" Type="int32" Value="3"/>
+																										</PropertyList>
+																										<PointList>
+																											<Point>
+																												<XPos>25.69353</XPos>
+																												<YPos>0</YPos>
+																												<Flags>5</Flags>
+																											</Point>
+																											<Point>
+																												<XPos>105.09591</XPos>
+																												<YPos>0</YPos>
+																												<Flags>37</Flags>
+																											</Point>
+																										</PointList>
+																									</Curve>
+																								</PropertyCurve>
+																							</PropertyCurveList>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{95665738-57D4-40BD-97A4-75D0C76F318A}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{16E0D442-4805-499B-AB65-5B24A82B31A6}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="76580.7191162851"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{763ADADA-129B-4819-AB5C-6AD700CA0E5C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{DF7AA220-59C4-49A8-AFED-DFA6662EF30A}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists/>
+									<Playlist>
+										<MusicPlaylistItem Name="" ID="{41223A51-85E2-45C2-88B0-1A32D48EEB85}" ShortID="720564796">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{B3937DDA-9704-47DA-A98B-7FCB22C4B94E}" ShortID="699765303">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="MainMenu" ID="{FD198ADF-52EC-4501-B6FC-53DBAB307FD8}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Playlist>
+								</MusicPlaylistContainer>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{A57B6D47-132C-4196-89CD-4C7646B631FB}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{B5A7D297-387A-497F-A544-4EBD930419C4}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+						</MusicSwitchContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{E4DD2102-B82A-4633-9292-302590816E36}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{5C58770E-1774-471A-8BD3-C499B0F5DF87}">
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{10F92B34-191E-4C2C-9D9C-2A4FFDCB9A61}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Gameplay" ID="{DD2F1899-3AB5-477A-B5C9-F10DB2DE10A3}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Goblet_Transition" ID="{0F0EBA1A-DD30-4859-9EAB-C4187FEF87B1}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{62EC9A20-8197-41EA-9333-A7126E59CCBD}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="2"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<TransitionFadeIn>
+											<MusicFade Name="Transition Fade-in" ID="{95F0D9D4-6251-4A5F-9C1B-9CAF57D4CB70}"/>
+										</TransitionFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{547445B1-1186-4695-B6E4-030BA335FD76}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="King_Death_Early" ID="{42323BF6-FF8D-4112-B8F2-23B76F53CCE9}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Gameplay" ID="{DD2F1899-3AB5-477A-B5C9-F10DB2DE10A3}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Death_Transition" ID="{7A7AF1F8-1B66-48E5-938C-EC2742712B8D}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}"/>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{AE423620-ABC6-4DDC-B0DF-B8281C70CD79}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="10"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{0D5BDF72-3EBB-4238-BF71-B2D8C11AEC2C}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="King_Death_Regular" ID="{48EB2938-14B3-4778-9D64-0A6DF1ABF344}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Gameplay" ID="{DD2F1899-3AB5-477A-B5C9-F10DB2DE10A3}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Death_Transition" ID="{7A7AF1F8-1B66-48E5-938C-EC2742712B8D}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}"/>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{8E23511A-D034-4680-9DAE-BEEE510830FE}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Menu_Music" ID="{CE0F6AC6-72DA-4318-B507-31EE745F941C}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{0DAB3156-3DD4-4E2F-8342-75C7659C137E}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{47745F5F-8F05-4F8A-97AE-356E316F2947}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="3"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="MenuState" ID="{43EB708F-38BA-4C29-B8AB-962F28DBB122}"/>
+						<ArgumentRef Name="KingState" ID="{8CEBA488-496B-4DA1-A8D2-D1235E2E903B}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="StartUp" ID="{99A2681D-DECE-4BD5-86FF-4557E5C4352D}"/>
+								<PathElementRef Name="KingState" ID="{8CEBA488-496B-4DA1-A8D2-D1235E2E903B}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="StartupSequence" ID="{7D42D42E-108C-4065-815F-3D0470EF3401}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="InGame" ID="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}"/>
+								<PathElementRef Name="Alive" ID="{9FF97352-42DF-4C58-A55D-25922170DE68}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Gameplay" ID="{DD2F1899-3AB5-477A-B5C9-F10DB2DE10A3}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="InMenu" ID="{B9864B7D-99DE-4732-B979-120D3EE307C5}"/>
+								<PathElementRef Name="KingState" ID="{8CEBA488-496B-4DA1-A8D2-D1235E2E903B}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Menu_Music" ID="{CE0F6AC6-72DA-4318-B507-31EE745F941C}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="InGame" ID="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}"/>
+								<PathElementRef Name="Dead_Early" ID="{94B7F0F2-7C2D-4268-A061-ED94852C7CCF}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="King_Death_Early" ID="{42323BF6-FF8D-4112-B8F2-23B76F53CCE9}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="InGame" ID="{181E4D76-3348-4BB1-A2C5-9A79F6E0E08F}"/>
+								<PathElementRef Name="Dead_Regular" ID="{B2F1529F-A5A8-4E75-B696-8BC08B67C494}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="King_Death_Regular" ID="{48EB2938-14B3-4778-9D64-0A6DF1ABF344}" WorkUnitID="{D053A7D9-B900-432A-A2A4-331EF2C5A47E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

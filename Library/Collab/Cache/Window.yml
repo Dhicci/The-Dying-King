@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Scenes/Game Scene.unity
+    - Assets/Scenes/Main Menu.unity
+    - Assets/Scripts/Gamejam_dialogue_text.txt
+    - Assets/Scripts/dialogueManager.cs
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
+    - Assets/Wwise/ScriptableObjects/Event/4E28EB8A-0B79-4F9E-B45D-B7A2B4A70EB3.asset
+    - Assets/Wwise/ScriptableObjects/Event/4E28EB8A-0B79-4F9E-B45D-B7A2B4A70EB3.asset.meta
+    - Assets/Wwise/ScriptableObjects/Event/A689B90C-38FF-4DEB-B9BD-F0363A0A8045.asset
+    - Assets/Wwise/ScriptableObjects/Event/A689B90C-38FF-4DEB-B9BD-F0363A0A8045.asset.meta
+    - Assets/Wwise/ScriptableObjects/GameParameter.meta
+    - Assets/audioManager.cs
+    - Assets/audioManager.cs.meta
+    - ProjectSettings/ProjectVersion.txt
+    - 
+    m_Values: 000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 9fa61d73df2c70ef5af7194d782493d1ea906ab7
+  HistoryPageNumber: 0
+  TabIndex: 0

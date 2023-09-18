@@ -1,0 +1,256 @@
+#00
+"The king has been poisoned.
+"In his dying moment, he calls for you. The sole blood heir to the throne, yet untrained for ruling as a lady of the court.
+"The son-less king must decide whether you're fit to take his place.
+0
+
+#00
+"Ah... My child... Do come forth.
+0
+
+%01
+134) "I'm here for you.
+220) "No, you can't die!
+214) "Who did this to you?
+212) "Spare your breath.
+
+#10
+"That... hardly matters now. My fate is... sealed.
+"Be honest with a dying man... Did I rule well?
+0
+
+#20
+"Be honest with a dying man... Did I rule well?
+0
+
+%01
+110) "You were the best king.
+120) "You raised me well.
+200) "No.
+
+#10
+"What... makes you say that?
+1
+
+#20
+"What... makes you say that?
+2
+
+%12
+140) "You gave all of yourself to the Kingdom.
+120) "Because you loved me the most.
+124) "You humbly suffered and served the people.
+
+%22
+210) "You lacked backbone.
+314) "Because you're dying! Tell me who did this!
+430) "You've been stuck in the old ways for too long.
+
+#10
+"That I sure did
+"I'm almost frightened to ask...
+"How will history remember me?
+0
+
+#20
+"Is that so. Well... I did ask you to be honest with me.
+"No need to pretend or hold back anymore. What do you really think?
+"How will history remember me?
+0
+
+#30
+"My time has long since come. Please...
+"Just speak to me.
+"How will history remember me?
+0
+
+#40
+"Do you think so? Perhaps I have...
+"Pray tell me then..
+5
+
+%02
+110) "...A coward.
+220) "The kindest man.
+340) "A slave of the nation.
+414) "We're wasting time. Someone betrayed you.
+
+#13
+"A coward?
+1
+
+#23
+"You bring an old fool to tears, dear.
+"My kindness... may have been the end of me.
+"Tell me...
+"If you were in my shoes... what would you do differenty?
+2
+
+#33
+"...It is a burden I carried with dignity.
+"You always understood the price of leadership so well.
+"Tell me...
+"If you were in my shoes... what would you do differenty?
+2
+
+#43
+"I accept that my time has come.
+"You are more important right now.
+"If you were in my shoes... what would you do differenty?
+2
+
+#53
+"If you were in my shoes... what would you do differenty?
+2
+
+%14
+210) "You did what the ministers told you.
+230) "You were afraid to make a change.
+113) "You didn't make me heir sooner, because I am a woman.
+
+#13
+"You want power that bad?
+"What for.
+"If you were in my shoes... what would you do differenty?
+2
+
+%24
+113) "A king should always be victorious.
+220) "I would cultivate the greatest medics, those who could've healed you...
+310) "Make me queen. I will make blood flow in rivers for you.
+440) "I could never live up to you...
+
+#15
+"What is victory to you then?
+"Do you have more to say?
+1
+
+#25
+"Heh. I did overlook that in my time, yes.
+"Do you have more to say?
+1
+
+#35
+"I don't need bloodshed...
+"Do you have more to say?
+1
+
+#45
+"... I'm sure you will...
+"You know everything I know. And after all..
+5
+
+%12
+130) "We should educate our people; close the gap of differences.
+110) "I will smite our enemies. I will plant fear in the court.
+120) "The ministers and king should have trust and work together.
+
+#13
+"You speak as if you're already ruling.
+1
+
+%12
+140) "Forgive me, I overstepped...
+210) "I think the choice is obvious.
+330) "I merely hope to earn your peace and trust.
+
+#15
+"Now, now. I wish to hear it all.
+"So young, so opinionated...
+"The ruler after me... What do you think should be their first act?
+1
+
+#25
+"How bold of you...
+"So young, so opinionated...
+"The ruler after me... What do you think should be their first act?
+1
+
+#35
+"You clearly have plans.
+"So young, so opinionated...
+"The ruler after me... What do you think should be their first act?
+1
+
+%18
+130) "Adopting new technology is key.
+220) "Giving the people more of what we have.
+310) "I must avenge you! I will not sleep until I find them.
+
+#1
+"What for do we need this modernity?
+1
+
+%1
+113) "Our military would be impenetrable.
+130) "Our trading and riches will increase!
+123) "Our people would be better fed.
+
+#1
+"You always did have... big ideas.
+5
+
+#2
+"Hah... So naive... 
+"I don't mean it in a bad way.
+"Generosity is part of it, sure, but. Do you know...
+5
+
+#3
+"You are blinded by rage.
+"Forgiveness, kindness. Love when it's the hardest thing to do.
+"These are the qualities of a father and a king. In the end...
+5
+
+#5
+"...What else is there to being ruler?
+1
+
+%1
+130) "A leader must be charismatic and eloquent, someone people would listen to
+110) "The ruler must be feared and respected.
+220) "...Father I don't want you to go...
+324) "You did everything gracefully. You can finally rest now.
+
+#1
+"In the end, it's what the people think of you that matters...
+1
+
+#2
+"I fear to leave you too, my child.
+1
+
+#3
+"...Thank you.
+1
+
+#1
+"Sweet mercy...What will happen after I'm gone?
+1
+
+%1
+140) "On this day, every year, your rule shall be commemorated.
+110) "Chaos."
+120) "I don't know... what I will do without you.
+130) "What would be your last wish?
+
+#1
+"What will it be then...
+"If I made you queen?
+1
+
+%1
+134) "If that is what you will.
+120) "I will do my best....
+140) "I am unworthy of ruling... I must decline.
+113) "You won't regret it.
+
+E
+
+#1
+"The king attempts to speak. His words choke on his own blood.
+"His eyes roll back. With his last ounce of strength he makes a hand gesture to someome.
+"You look behind you and see two of the ministers at the door. The kingdom's fate has been decided it seems...
+0
+
+S

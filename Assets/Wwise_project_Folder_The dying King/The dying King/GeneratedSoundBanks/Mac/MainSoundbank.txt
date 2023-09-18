@@ -1,0 +1,48 @@
+Event	ID	Name			Wwise Object Path	Notes
+	673585283	Button_MouseOver			\Default Work Unit\Button_Events\Button_MouseOver	
+	1902257150	KingDeath_Early			\Default Work Unit\Game Events\KingDeath_Early	
+	2312127631	Button_MouseClick			\Default Work Unit\Button_Events\Button_MouseClick	
+	3161578462	GameStartup			\Default Work Unit\Game Events\GameStartup	
+	3250874435	Button_BackToMenu			\Default Work Unit\Button_Events\Button_BackToMenu	
+	3852047270	PlayButton_Click			\Default Work Unit\Button_Events\PlayButton_Click	
+	4013156071	KingDeath_Regular			\Default Work Unit\Game Events\KingDeath_Regular	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1548586727	MenuState			\Default Work Unit\MenuState	
+	3115119195	KingState			\Default Work Unit\KingState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MenuState			
+	984691642	InGame	MenuState			
+	2530218128	StartUp	MenuState			
+	3374585465	InMenu	MenuState			
+	493873435	Dead_Early	KingState			
+	655265632	Alive	KingState			
+	748895195	None	KingState			
+	1697941970	Dead_Regular	KingState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	954941502	Anger			\Default Work Unit\Gameplay_RTPC\Anger	
+	1561647163	Empathy			\Default Work Unit\Gameplay_RTPC\Empathy	
+	3105742403	Loyalty_Ambition			\Default Work Unit\Gameplay_RTPC\Loyalty_Ambition	
+
+Effect plug-ins	ID	Name	Type				Notes
+	71512308	Medium (Custom)	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	48769226	The_dying_king_gameplay_2_loyalty	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\The_dying_king_gameplay_2_loyalty_F50F2C6A.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay\Main_Gameplay_tracks\The_dying_king_gameplay_2_loyalty		1050975
+	65960414	SFX_Button_Mouse_Over_2	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\SFX_Button_Mouse_Over_2_079E07D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Menu\Mouse_Clicks\Mouse_Click\SFX_Button_Mouse_Over_2		5940
+	114389385	MenuMouse_Click	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\SFX_Button_Click_079E07D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Menu\Mouse_Clicks\MenuMouse_Click		5446
+	151040338	The_dying_king_gameplay_3_empathy	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\The_dying_king_gameplay_3_empathy_F50F2C6A.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay\Main_Gameplay_tracks\The_dying_king_gameplay_3_empathy		1244791
+	398384254	SFX_Goblet	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\SFX_Goblet_AEE66EA7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Transitions\Goblet_Transition\SFX_Goblet		146246
+	479464872	The_dying_king_Death	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\The_dying_king_Death_AEE66EA7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Transitions\Death_Transition\The_dying_king_Death		303973
+	497430627	The_dying_king_End_Loop	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\The_dying_king_End_Loop_AEE66EA7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\End_Loop\King_Death_Early\The_dying_king_End_Loop\The_dying_king_End_Loop		1612721
+	574996976	The_dying_king_gameplay_1_anger	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\The_dying_king_gameplay_1_anger_F50F2C6A.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay\Main_Gameplay_tracks\The_dying_king_gameplay_1_anger		1282163
+	706305504	The_dying_king_gameplay_4_ambition	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\The_dying_king_gameplay_4_ambition_F50F2C6A.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay\Main_Gameplay_tracks\The_dying_king_gameplay_4_ambition		1006158
+	837588080	SFX_Button_Mouse_Over_3	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\SFX_Button_Mouse_Over_3_079E07D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Menu\Mouse_Clicks\Mouse_Click\SFX_Button_Mouse_Over_3		5551
+	861222522	The_dying_king_End_Loop_Intro	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\The_dying_king_End_Loop_Intro_AEE66EA7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\End_Loop\King_Death_Early\The_dying_king_End_Loop_Intro\The_dying_king_End_Loop_Intro		2165966
+	882465852	The_dying_king_gameplay_0_Base	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\The_dying_king_gameplay_0_Base_F50F2C6A.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Gameplay\Main_Gameplay_tracks\The_dying_king_gameplay_0_Base		1223895
+	936435885	The_dying_king_splash_screen	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\The_dying_king_splash_screen_F50F2C6A.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Menu\StartupSequence\SplashScreen\The_dying_king_splash_screen		2368359
+	947760628	The_dying_king_splash_screen	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\The_dying_king_splash_screen_AEE66EA7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Menu\Menu_Music\MainMenu\The_dying_king_splash_screen		2361328
+	1017859008	SFX_Button_Mouse_Over_1	X:\Dokumente\Unity\The Dying King\Assets\Wwise_project_Folder_The dying King\The dying King\.cache\Mac\SFX\SFX_Button_Mouse_Over_1_079E07D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Menu\Mouse_Clicks\Mouse_Click\SFX_Button_Mouse_Over_1		5765
+
